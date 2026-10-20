@@ -8,7 +8,10 @@
   "Category": "Tic-Tac-Toe",
   "CategoryIcon": "imgs/plugin/category-icon",
   "CodePath": "bin/plugin.js",
-  "DefaultWindowSize": [420, 420],
+  "DefaultWindowSize": [
+    420,
+    420
+  ],
   "UUID": "com.homedeck.tictactoe",
   "SDKVersion": 3,
   "Software": {
@@ -19,8 +22,14 @@
     "Debug": "enabled"
   },
   "OS": [
-    { "Platform": "windows", "MinimumVersion": "10" },
-    { "Platform": "mac", "MinimumVersion": "10.15" }
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    },
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.15"
+    }
   ],
   "Actions": [
     {
@@ -28,8 +37,15 @@
       "UUID": "com.homedeck.tictactoe.cell",
       "Icon": "imgs/actions/cell/icon",
       "Tooltip": "One square of the Tic-Tac-Toe board. Place exactly nine of these in a 3x3 block on a folder page.",
-      "Controllers": ["Keypad"],
-      "States": [{ "Image": "imgs/actions/cell/icon", "ShowTitle": false }]
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "imgs/actions/cell/icon",
+          "ShowTitle": false
+        }
+      ]
     }
   ]
 }
