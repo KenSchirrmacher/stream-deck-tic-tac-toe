@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+com.homedeck.tictactoe.sdPlugin/logs/
+com.homedeck.tictactoe.sdPlugin/bin/
+com.homedeck.tictactoe.sdPlugin/imgs/
+*.streamDeckPlugin
